@@ -1,0 +1,5 @@
+In Cascading Style Sheets, CSS grid layout or CSS grid creates complex responsive web design grid layouts more easily and consistently
+across browsers.
+In order to make any style , we need to draw that design on paper so that we can observe that which properties could be used here, as 
+we know,it is easy to design anything in form of grid by using grid properties is too simple.it makes code clean and readable formate 
+to our code.
