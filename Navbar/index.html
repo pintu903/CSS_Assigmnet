@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <title>Navbar</title>
+    <style>
+      #navbar {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      #category {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      #category > div {
+      }
+
+      #masaiLogo > img {
+        width: 100%;
+      }
+      #loginButton {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
+        border-radius: 10px;
+        background-color: white;
+        color: red;
+      }
+      #courseDropDown {
+        border: none;
+        font-size: 15px;
+      }
+
+      @media screen and (min-width: 400px) and (max-width: 700px) {
+        #navbar {
+          display: flex;
+          justify-content: space-around;
+        }
+      
+     
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <div id="masaiLogo">
+        <img
+          src="https://www.masaischool.com/img/navbar/logo.svg"
+          alt="masaiLogo"
+        />
+      </div>
+      <div id="category">
+        <div id="course">
+          <select id="courseDropDown">
+            <option value="">COURSES</option>
+            <form id="courseForm">
+              <option value="FSWD">Full Stack></option>
+              <option value="DA">Data Analytics ></option>
+            </form>
+          </select>
+        </div>
+        <div>FEES & ISA</div>
+        <div>FAQ</div>
+        <div>ABOUT US</div>
+        <div>EVENTS</div>
+        <div>HIRE FROM US</div>
+        <div>REFER & EARN</div>
+      </div>
+      <div id="loginButton">LOGIN</div>
+    </div>
+  </body>
+</html>
